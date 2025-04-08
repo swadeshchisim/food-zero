@@ -61,3 +61,16 @@
         bottom: 0;
     }
 }
+
+/* Medium Device */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .banner-title {
+        font-size: 4.5rem;
+        line-height: 80px;
+    }
+
+    .ingradients-container {
+        left: 120px; 
+        bottom: 0;
+    }
+}
