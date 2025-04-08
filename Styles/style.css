@@ -37,9 +37,12 @@
     font-size: 5.75rem;
     line-height: 110px;
 }
-.ingradient-container {
-    left:-100px; 
-    bottom:0px;
+.ingradients-container {
+    left: -65px; 
+    bottom: 0;
+}
+.ingradients-container img{
+    width: 136px;
 }
 
 
@@ -51,11 +54,10 @@
     }
     .banner-title {
         font-size: 2.75rem;
-        line-height: 40px;
+        line-height: 50px;
     }
-    .ingradient-container {
-        left:0px; 
-        bottom:0px;
-        translate: 50px;
+    .ingradients-container {
+        left: 0; 
+        bottom: 0;
     }
 }
