@@ -45,6 +45,14 @@
     width: 136px;
 }
 
+/* Diet you plan today styles */
+.diet-your-plan img{
+    width: 75%;
+}
+.diet-first-column {
+    width: 792px;
+}
+
 
 /* Media Query Styles Small Device */
 @media only screen and (max-width: 576px){
@@ -59,6 +67,12 @@
     .ingradients-container {
         left: 0; 
         bottom: 0;
+    }
+    .diet-your-plan img{
+        width: 100%;
+    }
+    .diet-first-column {
+        width: 100%;
     }
 }
 
