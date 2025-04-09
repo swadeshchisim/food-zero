@@ -65,8 +65,11 @@
         line-height: 50px;
     }
     .ingradients-container {
-        left: 0; 
+        left: 27px; 
         bottom: 0;
+    }
+    .ingradients-container img{
+        width: 50%;
     }
     .diet-your-plan img{
         width: 100%;
