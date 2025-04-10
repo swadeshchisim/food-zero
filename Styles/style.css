@@ -54,8 +54,20 @@
 }
 
 /* Our Menu Styles */
+.our-menu-area {
+    background: url(../images/our-menu-bg.png) no-repeat top right;
+}
+.our-menu-header > p{
+    width: 50%;
+}
 .our-menu-header > h2{
-    font-size: 84px;
+    font-size: 5.24rem;
+}
+.our-menu-item > h5 {
+    border-bottom: 2px dotted black;
+}
+.our-menu-item > h3 {
+    font-size: 2.5rem;
 }
 
 
@@ -81,6 +93,16 @@
     }
     .diet-first-column {
         width: 100%;
+    }
+    .our-menu-area {
+        background: none;
+    }
+    .our-menu-header > h2{
+        font-size: 3.24rem;
+    }
+    .our-menu-header > p {
+        width: 100%;
+        font-size: 10vh;
     }
 }
 
