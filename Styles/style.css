@@ -53,6 +53,11 @@
     width: 792px;
 }
 
+/* Our Menu Styles */
+.our-menu-header > h2{
+    font-size: 84px;
+}
+
 
 /* Media Query Styles Small Device */
 @media only screen and (max-width: 576px){
