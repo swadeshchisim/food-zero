@@ -57,10 +57,10 @@
 .our-menu-area {
     background: url(../images/our-menu-bg.png) no-repeat top right;
 }
-.our-menu-header > p{
+.section-description {
     width: 50%;
 }
-.our-menu-header > h2{
+.section-title {
     font-size: 5.24rem;
 }
 .our-menu-item > h5 {
@@ -69,6 +69,21 @@
 .our-menu-item > h3 {
     font-size: 2.5rem;
 }
+
+/* Excellent Cook */
+.excellent-title {
+    width: 200px;
+}
+.chef-img {
+    width: 600px;
+}
+.wooden-pen {
+    width: 340px;
+    position: absolute;
+    left: 39px;
+    bottom: 20px;
+}
+
 
 
 /* Media Query Styles Small Device */
@@ -97,17 +112,32 @@
     .our-menu-area {
         background: none;
     }
-    .our-menu-header > h2{
-        font-size: 3.24rem;
+    .section-title{
+        font-size: 2.75rem;
     }
     .our-menu-header > p {
         width: 100%;
         font-size: 10vh;
     }
+    /* Excellent Cook Styles */
+    .wooden-pen {
+        width: 220px;
+        left: 23px;
+        bottom: 14px;
+    }
+    .chef-img {
+        width: 90%;
+    }
+    .excellent-text {
+        padding-left: 24px;
+    }
+    .excellent-title {
+        width: 100%;
+    }
 }
 
 /* Medium Device */
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .banner-title {
         font-size: 4.5rem;
         line-height: 80px;
@@ -116,5 +146,8 @@
     .ingradients-container {
         left: 120px; 
         bottom: 0;
+    }
+    .wooden-pen {
+        top: 500px;
     }
 }
