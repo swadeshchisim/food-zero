@@ -93,6 +93,10 @@
     right: 150px;
 }
 
+/* Newsletter Input */
+.newsletter-input::placeholder {
+    color: #fff;
+}
 
 
 /* Media Query Styles Small Device */
